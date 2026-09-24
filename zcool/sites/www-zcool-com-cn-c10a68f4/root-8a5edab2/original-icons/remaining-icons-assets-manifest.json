@@ -1,0 +1,57 @@
+{
+  "source": "https://www.zcool.com.cn/",
+  "spec": "docs/research/www-zcool-com-cn-c10a68f4/root-8a5edab2/components/remaining-icons-spec.json",
+  "download": {
+    "client": "curl --fail --location",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "referer": "https://www.zcool.com.cn/",
+    "tlsVerification": true
+  },
+  "assets": [
+    {
+      "filename": "MTCustomer-s.p.3zkgcswb7q_-_.ttf",
+      "sourceUrl": "https://public-static.zcool.com.cn/oss/pc-next16/_next/static/media/MTCustomer-s.p.3zkgcswb7q_-_.ttf",
+      "bytes": 210444,
+      "sha256": "528b44ee936e6934620abdadb5498e4c7572036949c4e10629bd902dacacb596",
+      "format": "OpenType/CFF",
+      "header": "OTTO",
+      "headerHex": "4f54544f",
+      "tableCount": 9,
+      "validation": "OpenType header, table bounds and Unicode cmap mappings verified",
+      "note": "Original .ttf filename and downloaded bytes preserved; actual OTTO container is referenced with CSS format(opentype).",
+      "fontFamily": "zcoolIconFont",
+      "fontDisplay": "block",
+      "glyphs": {
+        "left": { "unicode": "U+E033", "glyphId": 55 },
+        "right": { "unicode": "U+E035", "glyphId": 57 }
+      },
+      "sizePx": 20,
+      "color": "rgba(0,0,0,.9)",
+      "usage": "Hero carousel arrow spans only"
+    },
+    {
+      "filename": "icon-zcool-wechat.jpeg",
+      "sourceUrl": "https://public-static.zcool.com.cn/git_z/z/images/icon-zcool-wechat.jpeg",
+      "bytes": 150968,
+      "sha256": "036cbaec654b2b6f4a1adfe01a178298e3b98fae4a24ef47b0203854966845ae",
+      "format": "JPEG",
+      "width": 1280,
+      "height": 1280,
+      "mode": "RGB",
+      "validation": "PIL Image.verify and full pixel decode passed",
+      "usage": "Footer QR asset downloaded only; no footer code changes"
+    },
+    {
+      "filename": "new-zcool-app-code.jpg",
+      "sourceUrl": "https://public-static.zcool.com.cn/git_z/z/images/new-zcool-app-code.jpg",
+      "bytes": 14579,
+      "sha256": "2c87e135a4044817f260846ae45e0133191af22c99028d72f76330101dd64e57",
+      "format": "JPEG",
+      "width": 100,
+      "height": 100,
+      "mode": "RGB",
+      "validation": "PIL Image.verify and full pixel decode passed",
+      "usage": "Footer QR asset downloaded only; no footer code changes"
+    }
+  ]
+}
